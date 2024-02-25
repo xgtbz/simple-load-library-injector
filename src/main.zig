@@ -31,7 +31,6 @@ fn allocate_external_memory(external_base: *?*anyopaque, process_handle: depende
 
 pub fn main() void 
 {
-
     var process_id: u32 = get_process_id("AssaultCube");
 
     const dll_name : [*c]const u8 = "enter\\dll\\path";
