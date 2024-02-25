@@ -28,7 +28,6 @@ fn allocate_external_memory(external_base: *?*anyopaque, process_handle: depende
     return true;
 }
 
-
 pub fn main() void 
 {
     var process_id: u32 = get_process_id("AssaultCube");
