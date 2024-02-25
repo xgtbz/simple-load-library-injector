@@ -34,7 +34,7 @@ pub fn main() void
 
     var process_id: u32 = get_process_id("AssaultCube");
 
-    const dll_name : [*c]const u8 = "C:\\Users\\user\\source\\repos\\test_module\\x64\\Debug\\test_module.dll";
+    const dll_name : [*c]const u8 = "enter\\dll\\path";
     const dll_length : u64 = dependencies.windows.strlen(dll_name);
 
     const output_handle : dependencies.windows.HANDLE = dependencies.windows.GetStdHandle(dependencies.windows.STD_OUTPUT_HANDLE);
