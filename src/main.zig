@@ -1,6 +1,5 @@
 const dependencies = @import("dependencies.zig");
 
-
 /// get the ID of a process
 fn get_process_id(window_name: [*c]const u8) u32 {
     const hwnd: dependencies.windows.HWND = dependencies.windows.FindWindowA(null, window_name);
